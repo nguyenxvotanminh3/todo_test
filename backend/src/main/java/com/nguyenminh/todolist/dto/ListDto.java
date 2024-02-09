@@ -5,11 +5,11 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-@AllArgsConstructor
-@Builder
 @Data
+@Builder
+@AllArgsConstructor
 @NoArgsConstructor
-public class ListResponse {
-    private String id;
+public class ListDto {
     private String description;
+    private boolean isChecked;
 }

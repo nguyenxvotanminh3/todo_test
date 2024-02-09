@@ -10,5 +10,5 @@ import org.springframework.data.mongodb.core.mapping.Document;
 public class ToDoList {
     private String id;
     private String description;
-
+    private boolean isChecked;
 }
